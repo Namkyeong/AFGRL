@@ -14,7 +14,7 @@ Inspired by the recent success of self-supervised methods applied on images, sel
 
 <img src="img/augmentation.svg" width="700px"></img> 
 
-Augmentations on images ((a)) keep the underlying semantics, whereas augmentations on graphs ((b),(c)) may unexpectedly change the semantics.
+**Augmentations on images keep the underlying semantics, whereas augmentations on graphs may unexpectedly change the semantics.**
 
 ### Requirements
 
