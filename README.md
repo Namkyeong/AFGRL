@@ -7,7 +7,7 @@
         <img src="https://img.shields.io/badge/AAAI'22-brightgreen" /></a>
 </p>
 
-An official source code for **Augmentation-Free Self-Supervised Learning on Graphs** paper, accepted at AAAI 2022.
+An official source code for [**Augmentation-Free Self-Supervised Learning on Graphs**](http://arxiv.org/abs/2112.02472) paper, accepted at AAAI 2022.
 
 ### Overview
 Inspired by the recent success of self-supervised methods applied on images, self-supervised learning on graph structured data has seen rapid growth especially centered on augmentation-based contrastive methods. However, we argue that without carefully designed augmentation techniques, augmentations on graphs may behave arbitrarily in that the underlying semantics of graphs can drastically change. As a consequence, the performance of existing augmentation-based methods is highly dependent on the choice of augmentation scheme, i.e., hyperparameters associated with augmentations. In this paper, we propose a novel augmentation-free self-supervised learning framework for graphs, named AFGRL. Specifically, we generate an alternative view of a graph by discovering nodes that share the local structural information and the global semantics with the graph. Extensive experiments towards various node-level tasks, i.e., node classification, clustering, and similarity search on various real-world datasets demonstrate the superiority of AFGRL. 
