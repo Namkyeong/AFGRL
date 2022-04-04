@@ -76,3 +76,16 @@ sh run_similarity_search.sh
 ```
 python main.py --embedder AFGRL --dataset wikics --task node --layers [1024] --pred_hid 2048 --lr 0.001 --topk 8
 ```
+
+### Cite (Bibtex)
+- If you find ``AFGRL`` useful in your research, please cite the following paper:
+  - Lee, Namkyeong, Junseok Lee, and Chanyoung Park. "Augmentation-Free Self-Supervised Learning on Graphs." AAAI 2022.
+  - Bibtex
+```
+@article{lee2021augmentation,
+  title={Augmentation-Free Self-Supervised Learning on Graphs},
+  author={Lee, Namkyeong and Lee, Junseok and Park, Chanyoung},
+  booktitle={AAAI},
+  year={2022}
+}
+```
